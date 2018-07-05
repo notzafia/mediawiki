@@ -18,17 +18,17 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 ## Uncomment this to disable output compression
 # $wgDisableOutputCompression = true;
 
-$wgSitename = "TU-Wiki2";
+$wgSitename = "TU-Wiki";
 
 ## The URL base path to the directory containing the wiki;
 ## defaults for all runtime URL paths are based off of this.
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/wiki_1302";
+$wgScriptPath = "/tu-wiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://169.254.0.55";
+$wgServer = "http://10.13.112.82";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -52,9 +52,9 @@ $wgEmailAuthentication = true;
 ## Database settings
 $wgDBtype = "mysql";
 $wgDBserver = "localhost";
-$wgDBname = "wiki_130DB";
+$wgDBname = "tu-wiki-db";
 $wgDBuser = "root";
-$wgDBpassword = "notzafia1234";
+$wgDBpassword = "APerT4158+";
 
 # MySQL specific settings
 $wgDBprefix = "";
@@ -96,14 +96,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "ec8f5836da480a65fd485679cdc8a5511bb2ad6e03e8e8239bde34b2bcffb1fe";
+$wgSecretKey = "1e163a90fafe2f4123ea304957fd15aff6664cf533c134804207fef98c1398b1";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "32f7c68cf766a59f";
+$wgUpgradeKey = "674f691ce11dc977";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
