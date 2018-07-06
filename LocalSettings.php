@@ -25,10 +25,10 @@ $wgSitename = "TU-Wiki";
 ## For more information on customizing the URLs
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
-$wgScriptPath = "/tu-wiki";
+$wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://10.13.112.82";
+$wgServer = "http://203.131.222.82";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -42,8 +42,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "notzafia@tu.ac.th";
-$wgPasswordSender = "notzafia@tu.ac.th";
+$wgEmergencyContact = "apache@203.131.222.82";
+$wgPasswordSender = "apache@203.131.222.82";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
@@ -86,7 +86,7 @@ $wgPingback = false;
 ## If you use ImageMagick (or any other shell command) on a
 ## Linux server, this will need to be set to the name of an
 ## available UTF-8 locale
-$wgShellLocale = "C.UTF-8";
+$wgShellLocale = "en_US.utf8";
 
 ## Set $wgCacheDirectory to a writable directory on the web server
 ## to make your wiki go slightly faster. The directory should not
@@ -96,14 +96,14 @@ $wgShellLocale = "C.UTF-8";
 # Site language code, should be one of the list in ./languages/data/Names.php
 $wgLanguageCode = "en";
 
-$wgSecretKey = "1e163a90fafe2f4123ea304957fd15aff6664cf533c134804207fef98c1398b1";
+$wgSecretKey = "eb34b6c43a295fcc7dc662e819e56e40e9ccfdcc69762ce6a36df400f6186148";
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = "1";
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = "674f691ce11dc977";
+$wgUpgradeKey = "bc5f80ca9a6b90c0";
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
